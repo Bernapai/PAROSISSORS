@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../img/logo.png" type="image/png">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <title>Piedra Papel o Tijera</title>
+</head>
+<body id="fondo2">
+    <header>
+    <div id="general">
+        <nav>
+            <ul>
+                <li><a href="./arena.html">Arena</a></li>
+                <li><a href="./skin.html">Skins</a></li>
+                <li><a href="../index.html">Salir</a></li>
+            </ul>
+        </nav>
+    </div>
+    </header>
+    
+    </section>
+
+    <div class="divcontains">
+      <div id="textchange"  style="text-align: center; font-size: 40px; color: white; " class="animate__animated animate__zoomInLeft">
+        Usuario 1 
+      </div> 
+      <div id="textchange"  style="text-align: center; font-size: 40px; color: white;" class="animate__animated animate__zoomInLeft">
+         Usuario 2 
+      </div>
+    </div>
+
+
+    <section class="election">
+        <div id="container2" class=" animate__animated animate__bounceInLeft">
+          <!-- Contenedor de botones del Jugador 1 -->
+          <div class="opcion">
+            <button id="paper" type="button">
+              <img src="../img/paper.png" alt="Papel">
+            </button>
+          </div>
+          <div class="opcion">
+            <button id="rock" type="button">
+              <img src="../img/rock.png" alt="Piedra">
+            </button>
+          </div>
+          <div class="opcion">
+            <button id="scissors" type="button">
+              <img src="../img/scissors.png" alt="Tijera">
+            </button>
+          </div>
+        </div>
+      
+        <!-- Espaciado lateral entre los contenedores -->
+        <div style="width: 80px;"></div>
+      
+        <div id="container3" class=" animate__animated animate__bounceInRight">
+          <!-- Contenedor de botones del Jugador 2 -->
+          <div class="opcion">
+            <button id="paper2" type="button">
+              <img src="../img/paper.png" alt="Papel">
+            </button>
+          </div>
+          <div class="opcion">
+            <button id="rock2" type="button">
+              <img src="../img/rock.png" alt="Piedra">
+            </button>
+          </div>
+          <div class="opcion">
+            <button id="scissors2" type="button">
+              <img src="../img/scissors.png" alt="Tijera">
+            </button>
+          </div>
+        </div>
+      </section>
+      
+    
+    
+    <div>
+      <h1 style="text-align: center; color: antiquewhite;"  id="resultado">
+        ...
+        
+      </h1>
+    </div>
+    <audio src="../audio/select.mp3" id="ruidito"></audio>
+   
+    <script src="../proyecto.js"> </script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>    
+</body>
+</html>

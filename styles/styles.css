@@ -1,0 +1,142 @@
+@font-face{
+    src: url(../fonts/04B_30__.TTF);
+    font-family: "Mi fuente personalizada";
+}
+*{
+    font-family:"Mi fuente personalizada" ;
+}
+#fondo1{
+    background-color: rgb(81, 0, 255);
+}
+.container{
+        display: grid;
+        place-items: center;
+        height: 100vh;
+        font-size: 120px;
+}
+
+
+.divcontains{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 250px;
+    margin-left: 250px;
+    
+
+}
+#container3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 50px; 
+    justify-items: center; 
+    
+}
+#container2,
+#container3 {
+  border: 2px solid white;
+  border-radius: 5px; 
+  padding: 10px; 
+  margin: 10px; 
+}
+
+#play{
+    color: beige;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+    margin: auto;
+
+}
+#play:hover{
+    cursor: pointer;
+    color:black; 
+    font-size: 130px;
+}
+.opcion img {
+    width: 100px;
+    height: 100px; 
+}
+
+.opcion button {
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    background: transparent;
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+}
+
+.opcion button:hover {
+    background-image:url(../img/white.png);
+    transform: scale(1.2); 
+}
+
+#container2 {
+    display: flex;
+}
+
+
+#fondo2{
+    background-color: rgb(81, 0, 255);
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+nav ul li a {
+    margin: 0px 50px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px; 
+    transition:0.3s;
+}
+nav ul li a:hover {
+    font-size: 25px; 
+    cursor: pointer;
+    color: black; 
+    transform: scale(0.3s);
+}
+#ready{
+    margin-top: 70px;
+    color: antiquewhite;
+}
+.election {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   height: 55vh; 
+  }
+  
+  #container2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 50px; 
+    justify-items: center; 
+    
+  }
+  
+  .opcion {
+    text-align: center; 
+    padding: 7px;
+    
+  }
+  
+  
+  .opcion button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .opcion img {
+    width: 100px;
+    height: 100px;
+  }
+  .card{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+
+    
