@@ -170,6 +170,22 @@ document.addEventListener("DOMContentLoaded", function() {
 
   let selectedButton = null;
 
+  function cargarSkinSeleccionado() {
+    const skinIndex = localStorage.getItem("selectedSkinIndex");
+    if (skinIndex !== null) {
+      seleccionarSkin(parseInt(skinIndex));
+    }
+  }
+  
+  function seleccionarSkin(index) {
+    const skin = skinArray[index];
+    botones.forEach(boton => {
+      boton.style.backgroundImage = `url('${skin.image}')`;
+    });
+  }
+
+  cargarSkinSeleccionado();
+
   for (let index = 0; index < pickButtons.length; index++) {
     const pickButton = pickButtons[index];
 
@@ -191,6 +207,7 @@ document.addEventListener("DOMContentLoaded", function() {
       });
 
       selectedButton = pickButton;
+      localStorage.setItem("selectedSkinIndex", index.toString());
     };
   }
 
