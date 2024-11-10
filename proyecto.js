@@ -136,7 +136,7 @@ document.addEventListener("DOMContentLoaded", function() {
   const skin3 = new Skins(3, "Amatista", "/img/amatista.png");
   const skin4 = new Skins(4, "Red", "/img/red.png");
   const skin5 = new Skins(5, "Green", "/img/green.png");
-  const skin6 = new Skins(6, "Brown", "/img/brown.png");
+  const skin6 = new Skins(6, "Brown", "https://img.freepik.com/fotos-premium/abstracto-diseno-fondo-hd-luz-alfabeto-color-rojo_851755-122930.jpg");
   const skin7 = new Skins(7, "Pink", "/img/pink.png");
   const skin8 = new Skins(8, "Gold", "/img/gold.png");
   const skin9 = new Skins(9, "Diamond", "/img/diamante.png");
