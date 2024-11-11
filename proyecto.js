@@ -131,12 +131,12 @@ document.addEventListener("DOMContentLoaded", function() {
     }
   }
 
-  const skin1 = new Skins(1, "Blue", "/img/blue.png");
-  const skin2 = new Skins(2, "Yellow", "/img/yellow.png");
+  const skin1 = new Skins(1, "Blue", "https://i.pinimg.com/474x/78/8b/44/788b44e53ad791e04812962bf13f50e4.jpg");
+  const skin2 = new Skins(2, "Yellow", "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAQEhUPEhIVFRUPEA8PEA8PDw8PDw8PFRUWFhUVFRUYHSggGBolGxUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OFRAQFy0dHR0tLS0tKy0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tKy0tLS0tLS0tLS0rLS0tLS0tLS0tLf/AABEIAOEA4QMBIgACEQEDEQH/xAAaAAEBAQEBAQEAAAAAAAAAAAABAAIDBAUG/8QAJRABAQEBAAEDAgcBAAAAAAAAAAERAjEDEiFBUWGBscHR4fBx/8QAGwEBAQEBAQADAAAAAAAAAAAAAQACAwQFBgf/xAAhEQEBAQEAAgEEAwAAAAAAAAAAARECITESMkFRcRMzYf/aAAwDAQACEQMRAD8A9sn4PT6Po/Vvn0M+bP7V63/j8/tz2+89d/LxGvj6eN+30dJy5cx39Plw76t8uV8N8cz7OvPP4DlvlxtcbWpzGpzBG5HO1zpkhkikakZtYpkMijUrNrFUkXwacAUjXPMPtwtfR5vti3fTOGckudtqGIrABiw4sSEOHEkzYG8GBLBYcUK0YnT2VN/Dr8D5R+a651mcvTzwb6b2fN8p88cJHXiNT03Xnlm9M9dM8unMGOnEYtcrVI1CnPWNMaEakDNUjUUTLJMUaHpmmJFmsjUYcSUjTNqlGMlJJKpBEpJBCU4jLiX5oYT8+vysfI5aweFuvS9zXwIZFaApG9YnJwUVr3Nwc8unLNrFqnLXMKgkvXpi0WmBqQXwE1FIWBSgZAyYVhQGErGdAWHEkETjXM1ayojBUgYbAGUidL5RkTc5erXstBnJzGozrOs2KRvGdALXuc7W5zjU40Vvm58jdYtai66+0Zz7tRqVmNxyophkUjUYZqkMUKZRBjNCKICFMPhvnjfP2Gsz4BR673xPSgSTDSOgyoLEdQT5s5b55Mhei16bWbARiQ0SNInWeYa1IsWrRG4MMZZrUjXIh1lmtwxmRqRmsVoiRqM1lLEkBpBkSWlYAkmsCTONIVJURQ0pIFJ5JDVQ6u4rNjpILG8ybVrGH2tJnTow4ZENGiQyNTkjRokanKkbkFrNoxqIxnWKjBpgCVakBvOTaNUixpMoSHEgkCKkFiipQoRxFJfJSeRuT6mTA9OfD37dLdFoJjFtvmn0zixvDIzq1jnlqRrEtGjFIVAEZEgCQYvYJ5+D4Z1v6P2x7aWswuduk1MmBNIIJIaCmtZ6q0IxQ0RT5ak2+FSjk+/6fym/4uvwPlHmhohVdkZFhkAUIpkASMhwASFJJYcKGs6KlhqSSxJJEgBQUxIgatSKGhFDSCSJTIj6SSQTnOUVjTWiGnFIhqkNiQChQoRxKFqc2i1JVRmo0FAJCpE6NBSSq1akNCWkpJpuc6tZKTNSagkaZFCOBBzTOtRtuxEUwJJJAgnw1zzvmi1CJLrrfE9KRqJmUuaVUSSVSRQWoasOHWbVQcMhIka1uc+NvoWrx/oCB11qkJkEajApS0WgEDaUnGGQQxt0JoQChSQKCCKSSWJBJrUItWDGqyiEKDgJWCqpoo6zVAmiFqBWoBNRM6UMOFhLCwRTzWmiqYGrzk8sqEFgohIFBJLVEtSVRQSWjFDmoi0+GdavOftRFJkhGjEkYEkUlqCwEYiUMRTGtSYvCdbnH+1e1KoMUcr5LcTMpAaQUAKwxLQMWFJasBUU8oHwrfszXX6PXse1aqDHNpJasSSVCRwIlBKLUVqtFotWHD7qmUsRQlVRV6UFJR1rWTAy0QgCdCCKB1BaIYtSCVoRSxIpaNVRQ1SmjU0VrOpDF1RpWNc86dwSHVaK111PUUICYOKFJJKJJGFIClqJCsipIIwRJI9ipJQKJEpqJKgRm/ukoVWakTCUklD2k68/10fdijpJzjUCSaaf/9k=");
   const skin3 = new Skins(3, "Amatista", "/img/amatista.png");
-  const skin4 = new Skins(4, "Red", "/img/red.png");
+  const skin4 = new Skins(4, "Red", "https://img.freepik.com/fotos-premium/abstracto-diseno-fondo-hd-luz-alfabeto-color-rojo_851755-122930.jpg");
   const skin5 = new Skins(5, "Green", "/img/green.png");
-  const skin6 = new Skins(6, "Brown", "https://img.freepik.com/fotos-premium/abstracto-diseno-fondo-hd-luz-alfabeto-color-rojo_851755-122930.jpg");
+  const skin6 = new Skins(6, "Brown", "https://img.freepik.com/foto-gratis/fondo-degradado-marron_53876-104923.jpg");
   const skin7 = new Skins(7, "Pink", "/img/pink.png");
   const skin8 = new Skins(8, "Gold", "/img/gold.png");
   const skin9 = new Skins(9, "Diamond", "/img/diamante.png");
